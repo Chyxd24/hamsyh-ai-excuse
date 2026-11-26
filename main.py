@@ -4,7 +4,7 @@ Writes one line to /output/entry.txt. Stdlib only, deterministic.
 """
 import os
 
-ENTRY = "Production's down because I optimized the thing that was already working. I renamed the ticket to 'planned maintenance' and the dashboard agrees with me."
+ENTRY = "Production's down because I optimized the thing that was already working. I renamed the ticket to 'planned maintenance' and the dashboard now agrees with me."
 
 assert 1 <= len(ENTRY) <= 180, len(ENTRY)
 p = "/output/entry.txt"
